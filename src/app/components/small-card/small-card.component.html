@@ -3,23 +3,26 @@
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-      src="https://media.tenor.com/VF6ZiN9PrTAAAAAC/giyuu-tomioka-kimetsu-no-yaiba.gif"
+      src="{{ photoSmallCover1 }}"
       alt=""
       height="300px"
       srcset=""
     >
     </div>
 
-    <div class="small-card__title">
-      <h1><a href="#">Small card</a> </h1>
+    <div class="posision">
+      <div class="small-card__title">
+        <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a> </h1>
+      </div>
+
+      <div class="small-card__description">
+        <p>{{ cardDescricao2 }}</p>
+      </div>
     </div>
-  </div>
 
-  <div class="container__small-card-separator">
-    <hr/>
-  </div>
-
-
+    <div class="container__small-card-separator">
+      <hr/>
+    </div>
 </div>
 
 

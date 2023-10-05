@@ -19,10 +19,19 @@
 .small-card__title {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.small-card__description > p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
 }
 
 .container__small-card-separator > hr {
   margin-bottom: 10px;
   border-color: rgba(255, 255, 255, 0.033);
 }
+
+
